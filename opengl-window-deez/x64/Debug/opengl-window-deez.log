@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opengl-window-deez.vcxproj -> C:\projects\opengl-window-deez\x64\Debug\opengl-window-deez.exe
