@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\dev\projects\opengl-window-deez\bin\x64\Debug\opengl-window-deez.exe</FullPath>
+      <FullPath>C:\dev\projects\OpenGL-deez\bin\x64\Debug\opengl-window-deez.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
