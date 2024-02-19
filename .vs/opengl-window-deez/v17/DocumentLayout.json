@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\projects\\OpenGL-deez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{403F37B5-6E6E-485A-890A-D282AEB868B1}|opengl-window-deez\\opengl-window-deez.vcxproj|C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{403F37B5-6E6E-485A-890A-D282AEB868B1}|opengl-window-deez\\opengl-window-deez.vcxproj|solutionrelative:opengl-window-deez\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{403F37B5-6E6E-485A-890A-D282AEB868B1}|opengl-window-deez\\opengl-window-deez.vcxproj|C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\src\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{403F37B5-6E6E-485A-890A-D282AEB868B1}|opengl-window-deez\\opengl-window-deez.vcxproj|solutionrelative:opengl-window-deez\\src\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Basic.shader",
+              "DocumentMoniker": "C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\res\\shaders\\Basic.shader",
+              "RelativeDocumentMoniker": "opengl-window-deez\\res\\shaders\\Basic.shader",
+              "ToolTip": "C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\res\\shaders\\Basic.shader",
+              "RelativeToolTip": "opengl-window-deez\\res\\shaders\\Basic.shader",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-02-19T01:31:57.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Application.cpp",
               "DocumentMoniker": "C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\src\\Application.cpp",
               "RelativeDocumentMoniker": "opengl-window-deez\\src\\Application.cpp",
               "ToolTip": "C:\\dev\\projects\\OpenGL-deez\\opengl-window-deez\\src\\Application.cpp",
               "RelativeToolTip": "opengl-window-deez\\src\\Application.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHAAAAAtAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAjwIEAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-02-13T03:36:05.307Z",
               "EditorCaption": ""
