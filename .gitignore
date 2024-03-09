@@ -1,3 +1,7 @@
+# not ignore dll and libs
+!*.dll
+!*.lib
+
 *.ipch
 *.log
 *.tlog
@@ -5,3 +9,16 @@
 *.pdb
 *.obj
 *.exe
+
+# visual studio cache files
+*.VC.db
+*.VC.opendb
+
+# user-specific files
+*.suo
+
+# Build results
+[Dd]ebug/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
