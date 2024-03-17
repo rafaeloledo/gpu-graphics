@@ -8,6 +8,19 @@
 #include <string>
 #include <sstream>
 
+static void GLClearError()
+{
+  while (glGetError() != GL_NO_ERROR);
+}
+
+static void GLCheckError()
+{
+  while (GLenum error = glGetError())
+  {
+    std::cout << "[OpenGL Error] (" << error << ")" << std::endl;
+  }
+}
+
 struct ShaderProgramSource
 {
   std::string VertexSource;
@@ -150,7 +163,9 @@ int main(void)
     /* Render here */
     glClear(GL_COLOR_BUFFER_BIT);
 
+    GLClearError();
     glDrawElements(GL_TRIANGLES, 6, GL_INT, nullptr);
+    GLCheckError();
 
     /* Swap front and back buffers */
     glfwSwapBuffers(window);
