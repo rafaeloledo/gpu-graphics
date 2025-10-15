@@ -15,6 +15,7 @@ scene.environment = new THREE.CubeTextureLoader()
   .setPath('https://sbcode.net/img/')
   .load(['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png'])
 
+
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.z = 2;
 
@@ -29,25 +30,25 @@ const gui = new GUI()
 
 const loader = new GLTFLoader()
 
-const dracoLoader = new DRACOLoader()
+// const dracoLoader = new DRACOLoader()
+// dracoLoader.setDecoderPath('/examples/jsm/libs/draco/')
+// loader.setDRACOLoader(dracoLoader)
 
-dracoLoader.setDecoderPath('/examples/jsm/libs/draco/')
-loader.setDRACOLoader(dracoLoader)
+loader.load('./Braid_Hand_Paint_Test_Three.glb', function (gltf) {
+    // load single braid
+    const obj = gltf.scene.children[0] as THREE.Object3D
+    const mesh = obj.children[0] as THREE.SkinnedMesh
+    const material = mesh.material as THREE.MeshStandardMaterial
 
-loader.load('./Braid_Raiz_Rig_New_Texture_Two.glb', function (gltf) {
+    material.color.set(0x00ff00)
+
 		scene.add(gltf.scene);
-    gltf.userData;
-		gltf.animations;
-		gltf.scene;
-		gltf.scenes;
-		gltf.cameras;
-		gltf.asset;
 	},
 	function (xhr) {
 		console.log((xhr.loaded / xhr.total * 100 ) + '% loaded');
 	},
 	function (error) {
-		console.log('An error happened');
+		console.log(error);
 	}
 );
 
